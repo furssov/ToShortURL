@@ -41,7 +41,6 @@ public class UrlService {
 
     public String getOriginalUrl(String shortUrl)
     {
-
         return urlRepository.findByShortUrl(shortUrl).get().getLongUrl();
     }
 
