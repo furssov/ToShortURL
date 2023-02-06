@@ -17,5 +17,8 @@ public class Url {
     @Column(nullable = false)
     private String longUrl;
 
+    @Column
+    private String shortUrl;
+
 
 }
